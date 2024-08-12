@@ -1,0 +1,37 @@
+# Ignore arquivos de compilação Java
+*.class
+
+# Ignore diretório bin onde os arquivos compilados geralmente são armazenados
+bin/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore diretórios de configuração e build de IDEs
+# Eclipse
+.project
+.classpath
+.c9project
+.settings/
+.metadata/
+.recommenders/
+remote-system-temp-files/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+.code-workspace
+
